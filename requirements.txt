@@ -2,6 +2,9 @@ pandas
 mlflow==2.2.2
 notebook
 numpy
+missingno
+seaborn
+plotly
 scikit-learn
 matplotlib
 python-box==6.0.2
