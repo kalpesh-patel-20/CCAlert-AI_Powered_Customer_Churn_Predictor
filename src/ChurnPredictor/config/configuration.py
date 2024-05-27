@@ -2,7 +2,8 @@ from ChurnPredictor.constants import *
 from ChurnPredictor.utils.common import read_yaml, create_directories
 from ChurnPredictor.entity.config_entity import (DataIngestionConfig,
                                                  DataValidationConfig,
-                                                 DataTransformationConfig)
+                                                 DataTransformationConfig,
+                                                 ModelTrainerConfig)
 
 class ConfigurationManager:
     def __init__(
@@ -57,3 +58,27 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
+    
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
+        config = self.config.model_trainer
+        params = self.params.CatBoostClassifier
+        schema =  self.schema.TARGET_COLUMN
+
+        create_directories([config.root_dir])
+
+        model_trainer_config = ModelTrainerConfig(
+            root_dir=config.root_dir,
+            train_data_path = config.train_data_path,
+            test_data_path = config.test_data_path,
+            model_name = config.model_name,
+            learning_rate = params.learning_rate,
+            l2_leaf_reg = params.l2_leaf_reg,
+            iterations = params.iterations,
+            depth = params.depth,
+            border_count = params.border_count,
+            bagging_temperature = params.bagging_temperature,
+            target_column = schema.name
+            
+        )
+
+        return model_trainer_config
