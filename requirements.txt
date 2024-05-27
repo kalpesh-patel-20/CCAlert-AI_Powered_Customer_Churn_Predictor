@@ -1,11 +1,16 @@
 pandas 
 mlflow==2.2.2
 notebook
+imblearn
 numpy
 missingno
 seaborn
 plotly
 scikit-learn
+xgboost
+catboost
+ipywidgets
+optuna
 matplotlib
 python-box==6.0.2
 pyYAML
