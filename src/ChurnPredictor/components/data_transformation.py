@@ -56,28 +56,11 @@ class DataTransformation:
         X_test[num_cols] = scaler.transform(X_test[num_cols])
         logger.info("Scaling completed")
 
-        if isinstance(X_train_resampled, np.ndarray):
-            X_train_resampled = pd.DataFrame(X_train_resampled, columns=[f'feature_{i}' for i in range(X_train_resampled.shape[1])])
+        y_train_new = pd.DataFrame(y_train_resampled, columns=['Churn'])
+        train  = pd.concat([X_train_resampled, y_train_new], axis=1)
 
-        if isinstance(y_train_resampled, np.ndarray):
-            y_train_resampled = pd.Series(y_train_resampled, name='Churn')
-
-        if isinstance(y_train_resampled, pd.Series):
-            y_train_resampled = y_train_resampled.to_frame()
-
-        train = pd.concat([X_train_resampled, y_train_resampled], axis=1)
-
-
-        if isinstance(X_test, np.ndarray):
-            X_test = pd.DataFrame(X_test, columns=[f'feature_{i}' for i in range(X_test.shape[1])])
-
-        if isinstance(y_test, np.ndarray):
-            y_test = pd.Series(y_test, name='Churn')
-
-        if isinstance(y_test, pd.Series):
-            y_test = y_test.to_frame()
-
-        test = pd.concat([X_test, y_test], axis=1)
+        X_test['Churn'] = y_test
+        test = X_test
 
         train.to_csv(os.path.join(self.config.root_dir, "train.csv"),index = False)
         test.to_csv(os.path.join(self.config.root_dir, "test.csv"),index = False)
