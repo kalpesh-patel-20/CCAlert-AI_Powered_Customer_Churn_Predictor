@@ -9,7 +9,7 @@ CCAlert is an advanced AI solution designed to predict customer churn, enabling 
 - **Interactive Visualizations**: Provides clear and informative visualizations of churn data.
 - **Proactive Retention**: Helps businesses identify at-risk customers early and implement retention strategies.
 
-## Screenshots
+## Prototype
 
 <div style="display:flex; flex-wrap:wrap; gap:2%; justify-content:center;">
 <img style="width:49%; margin-top:10px;" src="./assets/1.png">
