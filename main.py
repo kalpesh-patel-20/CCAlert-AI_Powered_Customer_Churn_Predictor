@@ -1,9 +1,9 @@
-from ChurnPredictor import logger
-from ChurnPredictor.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
-from ChurnPredictor.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
-from ChurnPredictor.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
-from ChurnPredictor.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
-from ChurnPredictor.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
+from src.ChurnPredictor import logger
+from src.ChurnPredictor.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from src.ChurnPredictor.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
+from src.ChurnPredictor.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
+from src.ChurnPredictor.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+from src.ChurnPredictor.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 
 STAGE_NAME = "Data Ingestion stage"
 try:

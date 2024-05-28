@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/Desktop/ML/Customer_Churn_Predictor/mlruns/0/29a9f81338da42baa5dc33d9b52d74e2/artifacts
+end_time: 1716864638369
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29a9f81338da42baa5dc33d9b52d74e2
+run_name: abrasive-lynx-182
+run_uuid: 29a9f81338da42baa5dc33d9b52d74e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716864632371
+status: 3
+tags: []
+user_id: HP

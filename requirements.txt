@@ -9,8 +9,10 @@ plotly
 scikit-learn
 xgboost
 catboost
+lightgbm
 ipywidgets
 optuna
+streamlit
 matplotlib
 python-box==6.0.2
 pyYAML

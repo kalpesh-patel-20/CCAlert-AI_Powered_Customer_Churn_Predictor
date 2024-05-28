@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/Desktop/ML/Customer_Churn_Predictor/mlruns/0/ced9fb699fbf4987b8710e1947bfc38a/artifacts
+end_time: 1716864956731
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ced9fb699fbf4987b8710e1947bfc38a
+run_name: flawless-bass-796
+run_uuid: ced9fb699fbf4987b8710e1947bfc38a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716864950256
+status: 3
+tags: []
+user_id: HP

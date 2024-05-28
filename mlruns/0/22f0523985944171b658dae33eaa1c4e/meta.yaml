@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/Desktop/ML/Customer_Churn_Predictor/mlruns/0/22f0523985944171b658dae33eaa1c4e/artifacts
+end_time: 1716873954023
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22f0523985944171b658dae33eaa1c4e
+run_name: bouncy-duck-584
+run_uuid: 22f0523985944171b658dae33eaa1c4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716873945447
+status: 3
+tags: []
+user_id: HP

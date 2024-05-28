@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/Desktop/ML/Customer_Churn_Predictor/mlruns/0/add97660d5b242b29a32ce8eb03a5285/artifacts
+end_time: 1716885665814
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: add97660d5b242b29a32ce8eb03a5285
+run_name: victorious-kite-148
+run_uuid: add97660d5b242b29a32ce8eb03a5285
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716885658275
+status: 3
+tags: []
+user_id: HP

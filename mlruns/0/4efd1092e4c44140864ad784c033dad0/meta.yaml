@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/Desktop/ML/Customer_Churn_Predictor/mlruns/0/4efd1092e4c44140864ad784c033dad0/artifacts
+end_time: 1716870606539
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4efd1092e4c44140864ad784c033dad0
+run_name: omniscient-flea-223
+run_uuid: 4efd1092e4c44140864ad784c033dad0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716870600946
+status: 3
+tags: []
+user_id: HP
