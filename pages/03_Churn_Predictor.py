@@ -32,7 +32,7 @@ paperless_billing_dict = {'No': 0, 'Yes': 1}
 payment_method_dict = {'Electronic check': 0, 'Mailed check': 1, 'Bank transfer (automatic)': 2, 'Credit card (automatic)': 3}
 
 # Data collection form
-with st.form("churn_form", clear_on_submit=True, border=True):
+with st.form("churn_form", border=True):
 
     gender = st.selectbox("Gender", options=gender_dict.keys())
     senior_citizen = st.selectbox("Senior Citizen", options=[0, 1])
