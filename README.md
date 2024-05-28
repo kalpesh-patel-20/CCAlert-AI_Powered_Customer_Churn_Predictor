@@ -20,8 +20,6 @@ CCAlert is an advanced AI solution designed to predict customer churn, enabling 
 <img style="width:49%; margin-top:10px;" src="./assets/6.png">
 <img style="width:49%; margin-top:10px;" src="./assets/7.png">
 <img style="width:49%; margin-top:10px;" src="./assets/8.png">
-<img style="width:49%; margin-top:10px;" src="./assets/9.png">
-
 </div>
 
 ## Contact Us
